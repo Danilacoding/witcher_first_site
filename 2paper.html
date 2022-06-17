@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/2style.css">
+
+    <script src="libs/gsap.min.js" defer></script>
+    <script src="libs/Draggable.min.js" defer></script>
+    <script src="libs/InertiaPlugin.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+
+    <style>
+        .gallery {opacity: 0;}
+    </style>
+
+</head>
+<body>
+    
+<h1 class="title2">Ведьмак <span>Loading...</span></h1>
+
+<!-- .gallery>(.gallery__item*12>img[src="img/person$.jpg" alt="Alt"])*4 -->
+<div class="gallery">
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B2%D0%B8%D0%BB%D0%BB,_%D0%93%D0%B5%D0%BD%D1%80%D0%B8" target="_blank"><div class="gallery__item"><img src="img/person/1.jpg" alt="Alt"></div></a>
+    <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BB%D0%B0%D0%BD,_%D0%A4%D1%80%D0%B5%D0%B9%D1%8F" target="_blank"><div class="gallery__item"><img src="img/person/2.jpg" alt="Alt"></div></a>
+    <div class="gallery__item"><img src="img/person/3.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/4.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/5.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/6.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/7.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/8.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/9.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/10.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/11.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/12.jpg" alt="Alt"></div>
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B2%D0%B8%D0%BB%D0%BB,_%D0%93%D0%B5%D0%BD%D1%80%D0%B8" target="_blank"><div class="gallery__item"><img src="img/person/1.jpg" alt="Alt"></div></a>
+    <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BB%D0%B0%D0%BD,_%D0%A4%D1%80%D0%B5%D0%B9%D1%8F" target="_blank"><div class="gallery__item"><img src="img/person/2.jpg" alt="Alt"></div></a>
+    <div class="gallery__item"><img src="img/person/3.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/4.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/5.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/6.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/7.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/8.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/9.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/10.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/11.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/12.jpg" alt="Alt"></div>
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B2%D0%B8%D0%BB%D0%BB,_%D0%93%D0%B5%D0%BD%D1%80%D0%B8" target="_blank"><div class="gallery__item"><img src="img/person/1.jpg" alt="Alt"></div></a>
+    <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BB%D0%B0%D0%BD,_%D0%A4%D1%80%D0%B5%D0%B9%D1%8F" target="_blank"><div class="gallery__item"><img src="img/person/2.jpg" alt="Alt"></div></a>
+    <div class="gallery__item"><img src="img/person/3.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/4.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/5.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/6.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/7.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/8.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/9.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/10.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/11.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/12.jpg" alt="Alt"></div>
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B2%D0%B8%D0%BB%D0%BB,_%D0%93%D0%B5%D0%BD%D1%80%D0%B8" target="_blank"><div class="gallery__item"><img src="img/person/1.jpg" alt="Alt"></div></a>
+    <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BB%D0%B0%D0%BD,_%D0%A4%D1%80%D0%B5%D0%B9%D1%8F" target="_blank"><div class="gallery__item"><img src="img/person/2.jpg" alt="Alt"></div></a>
+    <div class="gallery__item"><img src="img/person/3.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/4.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/5.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/6.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/7.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/8.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/9.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/10.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/11.jpg" alt="Alt"></div>
+    <div class="gallery__item"><img src="img/person/12.jpg" alt="Alt"></div>
+</div>
+
+</body>
+</html>
